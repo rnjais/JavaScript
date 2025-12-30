@@ -5,10 +5,10 @@ console.log(n);
 
 /*Prefer not to use var because of issue n block scope and functional scope*/
 
-// let has block scope and cannot be re-declared in the same scope
+//let has block scope and cannot be re-declared in the same scope
 let m = 10;
 m = 20; // Value can be updated
-// let n = 15; //can not redeclare
+// let m = 15; //can not redeclare
 console.log(n);
 
 const accountId = 144553;
