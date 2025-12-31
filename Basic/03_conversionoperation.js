@@ -19,7 +19,7 @@ let b = String(a);
 //"33abc" => NaN
 // true => 1; false => 0;
 
-let isLoggedIn  = "Aryan";
+let isLoggedIn = "Aryan";
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(booleanIsLoggedIn);
 //1 => true; 0 => false
@@ -39,13 +39,22 @@ let negvalue = -value;
 
 let str1 = "hello ";
 let str2 = "world";
-let str3 = str1+str2;
+let str3 = str1 + str2;
 // console.log(str3);
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 3);
-console.log(1 + 2 + "3");
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 3);
+// console.log(1 + 2 + "3");
+
+let l = 1;
+let m = 1;
+console.log(l++);
+console.log(l);
+console.log(++m);
+
+
+
 
 
 
