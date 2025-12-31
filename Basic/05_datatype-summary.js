@@ -30,4 +30,3 @@ const myFunctions = function(){
     console.log("Hello World");
     
 }
-myFunctions
