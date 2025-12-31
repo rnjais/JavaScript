@@ -5,6 +5,10 @@
 // console.log(value);
 
 /*if score = "33fehf" it cannot convert in Number in console show NaN (Not A Number) */
+let a = 33;
+let b = String(a);
+// console.log(typeof b);
+
 
 // let a = null;
 // let b = Number(a);
@@ -17,6 +21,35 @@
 
 let isLoggedIn  = "Aryan";
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 //1 => true; 0 => false
 // "Aryan" => true
+
+/**********************Operations***************************/
+let value = 33;
+let negvalue = -value;
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(3-2);
+// console.log(2/2);
+// console.log(2%2);
+// console.log(2*2);
+// console.log(2**3);
+
+let str1 = "hello ";
+let str2 = "world";
+let str3 = str1+str2;
+// console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 3);
+console.log(1 + 2 + "3");
+
+
+
+
+
+
+

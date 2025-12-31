@@ -3,7 +3,7 @@ var n = 10;
 var n = 20; //reassigning is allowed
 console.log(n);
 
-/*Prefer not to use var because of issue n block scope and functional scope*/
+/*Prefer not to use var because of issue in block scope and functional scope*/
 
 //let has block scope and cannot be re-declared in the same scope
 let m = 10;
