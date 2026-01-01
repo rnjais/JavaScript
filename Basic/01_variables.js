@@ -28,5 +28,5 @@ console.table([
   accountCity,
   accountState,
 ]);
-//This method print all variable value in table form
+//This method print all variable value in Table form
 //The data type of the variable is decided at run-time in JavaScript, which is why it is called dynamically typed.
