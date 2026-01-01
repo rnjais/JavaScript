@@ -30,3 +30,33 @@ const myFunctions = function(){
     console.log("Hello World");
     
 }
+
+
+// Stack(Primitive) Heap(Non-primitive)
+let fname = "Aryan";
+let lname = fname;
+console.log(lname);//Aryan stores copy of fname not original value
+
+lname = "jaiswal";
+
+console.log(fname);//Aryan
+console.log(lname);//Jaiswal
+
+let a = 2;
+let b = 3;
+let temp;
+temp = a;
+a = b;
+b = temp;
+console.log(a);
+console.log(b);
+
+let user1 ={
+    name: "Ashish",
+    age: 22,
+}
+console.log(user1);//{ name: 'Ashish', age: 22 }
+let user2 = user1;
+user2.name = "Karan";
+console.log(user1);//{ name: 'Karan', age: 22 }
+console.log(user2);//{ name: 'Karan', age: 22 }
