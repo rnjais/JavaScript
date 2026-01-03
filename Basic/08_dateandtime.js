@@ -14,11 +14,13 @@ console.log(createdate);///2003-05-05T11:45:00.000Z Note: Month start from 0-11
 console.log(createdate.toDateString());//Mon May 05 2003
 console.log(createdate.toLocaleDateString());//5/5/2003
 
-let myTimeStamp = Date.now( )
+let myTimeStamp = Date.now( );
 
 console. log (myTimeStamp);
 console. log(createdate.getTime());
 
 console.log((Math.floor)(Date.now()/1000));
+
+
 
 
